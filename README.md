@@ -1,3 +1,7 @@
+# Photoshop
+
+Personal fork of [PhotoCraft](https://github.com/storytold/photocraft), maintained by leeroyarin. This project is independent of Adobe Photoshop. Original licenses and contributor credits are retained. Internal Rust crate names and the `photocraft` executable remain compatible with upstream packaging.
+
 <p align="center">
   <a href="https://getartcraft.com/">
     <picture>

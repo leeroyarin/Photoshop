@@ -9,7 +9,7 @@
 # Clean-room: every entry was written from the plain meaning of the English label using ordinary
 # Indonesian computing vocabulary (layer, kuas, seleksi, kanvas ...). No proprietary localisation
 # resource, string table or product UI was consulted or copied; add entries the same way.
-# Product and technology names (PhotoCraft, ArtCraft, OpenType, CMYK, Lab ...) stay in Latin
+# Product and technology names (Photoshop, ArtCraft, OpenType, CMYK, Lab ...) stay in Latin
 # letters; the trailing "…" of dialog commands is kept.
 	File	Berkas
 	Edit	Edit
@@ -689,9 +689,9 @@
 	Timeline	Timeline
 	Tool Presets	Preset Alat
 	Tools	Alat
-	About PhotoCraft	Tentang PhotoCraft
-	PhotoCraft Website	Situs Web PhotoCraft
-	PhotoCraft on GitHub	PhotoCraft di GitHub
+	About Photoshop	Tentang Photoshop
+	Photoshop Website	Situs Web Photoshop
+	Photoshop on GitHub	Photoshop di GitHub
 	ArtCraft Website	Situs Web ArtCraft
 	Join the ArtCraft Discord…	Gabung ke Discord ArtCraft…
 	Report an Issue…	Laporkan Masalah…
@@ -743,7 +743,7 @@
 	All Caps	Huruf Kapital Semua
 	All Slices	Semua Slice
 	All User Slices	Semua Slice Pengguna
-	All shortcuts reset to PhotoCraft defaults.	Semua pintasan direset ke default PhotoCraft.
+	All shortcuts reset to Photoshop defaults.	Semua pintasan direset ke default Photoshop.
 	Alt	Alt
 	Alt-click to define a source point to clone from	Alt-klik untuk menentukan titik sumber yang mau di-clone
 	Always use pressure for opacity	Selalu pakai tekanan untuk opasitas
@@ -1211,9 +1211,9 @@
 	Perspective Warp is not active	Perspective Warp tidak aktif
 	Perspective Warp: draw planes along the image's perspective, then switch to Warp	Perspective Warp: gambar bidang mengikuti perspektif gambar, lalu pindah ke Warp
 	Photo Filter	Filter Foto
-	PhotoCraft	PhotoCraft
-	PhotoCraft Manages Colors	PhotoCraft Mengelola Warna
-	PhotoCraft — an open-source, native image editor written in Rust.	PhotoCraft — editor gambar native open-source yang ditulis dengan Rust.
+	Photoshop	Photoshop
+	Photoshop Manages Colors	Photoshop Mengelola Warna
+	Photoshop — an open-source, native image editor written in Rust.	Photoshop — editor gambar native open-source yang ditulis dengan Rust.
 	Pin Depth:	Kedalaman Pin:
 	Pixel Length:	Panjang Piksel:
 	Pixels/Centimeter	Piksel/Sentimeter
@@ -1287,7 +1287,7 @@
 	Import Shortcuts…	Impor Pintasan…
 	Load a keyboard shortcut set saved as .kys	Muat set pintasan keyboard yang disimpan sebagai .kys
 	Imported {n} shortcuts from {file}. Click OK to keep them.	{n} pintasan diimpor dari {file}. Klik OK untuk menyimpannya.
-	{n} commands are not in PhotoCraft.	{n} perintah tidak ada di PhotoCraft.
+	{n} commands are not in Photoshop.	{n} perintah tidak ada di Photoshop.
 	Keyboard shortcuts imported	Pintasan keyboard diimpor
 	Your keyboard shortcut set {set} is in use here: {n} shortcuts differ from the defaults. Edit › Keyboard Shortcuts shows them; Reset All to Defaults undoes this.	Set pintasan keyboard Anda {set} dipakai di sini: {n} pintasan berbeda dari bawaan. Edit › Pintasan Keyboard menampilkannya; Setel Ulang Semua ke Bawaan membatalkannya.
 	Reset Section	Reset Bagian
@@ -1505,7 +1505,7 @@
 	Current Tool	Alat Saat Ini
 	Custom Shape Tool	Alat Bentuk Kustom
 	Cyans	Cyan
-	Default PhotoCraft Size	Ukuran Default PhotoCraft
+	Default Photoshop Size	Ukuran Default Photoshop
 	Delete Workspace	Hapus Ruang Kerja
 	Diamond	Diamond
 	Dimensions:	Dimensi:
@@ -1605,7 +1605,7 @@
 	Pen Tilt	Kemiringan Pena
 	Pen Tool	Alat Pen
 	Photo	Foto
-	PhotoCraft website	Situs web PhotoCraft
+	Photoshop website	Situs web Photoshop
 	Picas	Pica
 	Pillow Emboss	Pillow Emboss
 	Pixel Replacement	Penggantian Piksel
@@ -1920,7 +1920,7 @@
 	System Info	Info Sistem
 	More panels	Panel lainnya
 	More documents	Dokumen lainnya
-	These settings aren't available in PhotoCraft yet.	Pengaturan ini belum tersedia di PhotoCraft.
+	These settings aren't available in Photoshop yet.	Pengaturan ini belum tersedia di Photoshop.
 	Graphics	Grafis
 	Reset GPU Backend	Reset Backend GPU
 	Applies at next launch.	Berlaku saat dibuka berikutnya.
@@ -2485,8 +2485,8 @@
 	Use Global Light	Gunakan Cahaya Global
 	Native file drag-and-drop is unavailable	Seret dan lepas berkas native tidak tersedia
 	Native file drag-and-drop is not supported on Wayland yet. Use File › Open, or copy the image in your file manager and paste it with {paste}.	Seret dan lepas berkas native belum didukung di Wayland. Gunakan Berkas › Buka, atau salin gambar di pengelola berkas lalu tempel dengan {paste}.
-	To drop files, start PhotoCraft under XWayland: `{command}`	Untuk menjatuhkan berkas, jalankan PhotoCraft di XWayland: `{command}`
-	Or set Preferences › Performance › Linux display server to X11: PhotoCraft then always starts under XWayland.	Atau atur Preferensi › Performa › Server tampilan Linux ke X11: PhotoCraft lalu selalu berjalan di XWayland.
+	To drop files, start Photoshop under XWayland: `{command}`	Untuk menjatuhkan berkas, jalankan Photoshop di XWayland: `{command}`
+	Or set Preferences › Performance › Linux display server to X11: Photoshop then always starts under XWayland.	Atau atur Preferensi › Performa › Server tampilan Linux ke X11: Photoshop lalu selalu berjalan di XWayland.
 	Edit › Paste	Edit › Tempel
 	Use File › Open, or paste a copied image with {paste}.	Gunakan Berkas › Buka, atau tempel gambar yang disalin dengan {paste}.
 	Mixer Brush Tool	Alat Kuas Pencampur
@@ -2523,7 +2523,7 @@ cameraRaw	Blending	Pembauran
 	Automatic uses GPU acceleration when available and falls back to CPU rendering on errors.	Mode otomatis memakai akselerasi GPU bila tersedia dan beralih ke rendering CPU jika terjadi galat.
 	Switched to CPU rendering	Beralih ke rendering CPU
 	GPU acceleration could not continue. Your documents are unchanged.	Akselerasi GPU tidak dapat dilanjutkan. Dokumen Anda tidak berubah.
-	PhotoCraft is using the CPU image compositor. The window may still use your graphics adapter.	PhotoCraft menggunakan kompositor gambar CPU. Jendela mungkin masih menggunakan adaptor grafis Anda.
+	Photoshop is using the CPU image compositor. The window may still use your graphics adapter.	Photoshop menggunakan kompositor gambar CPU. Jendela mungkin masih menggunakan adaptor grafis Anda.
 	Retry GPU requires a restart. Save your work first.	Mencoba GPU lagi memerlukan mulai ulang. Simpan pekerjaan Anda terlebih dahulu.
 	Keep Using CPU	Tetap Gunakan CPU
 	Retry GPU	Coba GPU Lagi

@@ -11,6 +11,30 @@ and ids stay lowercase (`photocraft-<version>-<platform>-<arch>.<ext>`, `ai.stor
 
 ## Cutting a release
 
+### Personal fork installers from Windows
+
+You do not need to own a MacBook to build the installer: the manual
+`.github/workflows/macos-installer.yml` workflow runs the existing packaging scripts on
+a hosted macOS runner. After committing and pushing the workflow to your repository's
+default branch, open **Actions → Build desktop installers → Run workflow**. When it succeeds,
+download **Photoshop-macos-universal** from the run's **Artifacts** section and extract it.
+Open the `.dmg` and drag **PhotoCraft** into **Applications**. The universal app supports
+Apple Silicon and Intel Macs; the bundle declares macOS 11.0 as its minimum version.
+
+This workflow builds a personal test installer without signing secrets or optional
+craft-fonts assets. It uses ad-hoc signing and does not notarize the app. Gatekeeper may
+block it; for a trusted build you made, use **System Settings → Privacy & Security →
+Open Anyway** if offered. Use the Release workflow with the Apple secrets below for
+Developer ID signing and notarization. The actual DMG build and runtime checks require
+macOS; they cannot be verified by running the packaging scripts on Windows.
+
+The same manual workflow also builds **Photoshop-windows-x64**, containing a Windows
+`.msi` setup wizard, a portable `.zip`, and SHA-256 checksums. Extract the downloaded
+artifact before opening the MSI. This personal Windows build is unsigned; official
+signed installers use the Release workflow. The Windows and Mac jobs run independently.
+
+### Official release
+
 1. **Bump the version** on `main`. The only place it lives is `[workspace.package] version`
    in the root `Cargo.toml`:
 

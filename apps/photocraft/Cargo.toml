@@ -3,12 +3,12 @@ name = "photocraft"
 version.workspace = true
 edition.workspace = true
 license.workspace = true
-default-run = "Photoshop-Clone"
+default-run = "photocraft"
 description = "Photocraft: an open-source, native image editor"
 build = "build.rs"
 
 [[bin]]
-name = "Photoshop-Clone"
+name = "photocraft"
 path = "src/main.rs"
 
 [features]
